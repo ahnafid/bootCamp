@@ -18,10 +18,19 @@ public class TestHomepage extends CommonAPI {
         testhomepage = PageFactory.initElements(driver,Homepage.class);
         driver.get(url);
     }
-    @Test
+    @Test(priority = 1)
     public void clickonSearch(){
         testhomepage.setSearch();
     }
+    @Test(priority = 2)
+    public void clickonAccount(){
+        testhomepage.setAccount();
+    }
+    @Test(priority = 3)
+    public void clickonHamburger(){
+        testhomepage.setHamburger();
+    }
+
 
 
 
