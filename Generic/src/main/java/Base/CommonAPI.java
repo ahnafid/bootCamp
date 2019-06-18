@@ -136,8 +136,8 @@ public class CommonAPI {
         options.addArguments("--disable-notifications");
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\arahm\\Downloads\\bootcamp-master\\Generic\\src\\main\\resources\\drivers\\chromedriver.exe");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 

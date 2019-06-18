@@ -11,10 +11,10 @@
     <parameter name="platform" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="browserVersion" value="74"/>
-    <parameter name="url" value="https://www.Citybank.com/"/>
+    <parameter name="url" value="https://www.Citibank.com/"/>
 
     <test name="Citybank">
-        <parameter name="url" value ="https://www.citybank.com/"/>
+        <parameter name="url" value ="https://www.citibank.com/"/>
         <classes>
             <class name="testcitybankhomepage.TestCitybankHomepage"/>
         </classes>
